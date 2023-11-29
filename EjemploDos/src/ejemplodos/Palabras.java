@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ejemplodos;
 
-/**
- *
- * @author chanp
- */
 public class Palabras {
+    int valor_uno = 0;
     
+    //INCORRECTO
+    // int for = 0;
+    
+    int _for = 0;
 }
