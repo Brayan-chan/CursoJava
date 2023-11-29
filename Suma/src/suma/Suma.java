@@ -25,7 +25,7 @@ public class Suma {
     }
     
     public void Imprimir() {
-        //Se manda a llamar el metodo que se puede comunicar con el metodo
+        //Se manda a llamar el metodo que se puede comunicar con otros metodos
         Operacion();
         System.out.println("El resultado de la suma es: " + Resultado);
     }
