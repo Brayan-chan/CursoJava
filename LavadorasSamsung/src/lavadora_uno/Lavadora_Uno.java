@@ -20,6 +20,11 @@ public class Lavadora_Uno {
         
         //Hacer la instancia de clases
         LLFunciones mensajero = new LLFunciones(kilos, TipoDeRopa);
+        
+        //setter para modificar el valor
+        mensajero.setTipoDeRopa(2);
+        mensajero.setKilos(15);
+        System.out.println("El tipo de ropa es: " + mensajero.getTipoDeRopa());
         mensajero.CicloFinalizado();
         
     }
